@@ -1,0 +1,27 @@
+# --- Môi trường chung ---
+.env
+.DS_Store
+
+# --- Rác của Golang (Identity Service) ---
+tmp/
+/tmp/
+docs/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# --- Rác của Python (AI Service) ---
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
